@@ -41,7 +41,7 @@ func init() {
 		RTPClockRate: 8000,
 		RTPDefType:   prtp.PayloadTypeG722,
 		RTPIsStatic:  true,
-		Priority:     -5,
+		Priority:     -25,
 		FileExt:      "g722",
 	}, Decode, Encode))
 }
