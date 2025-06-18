@@ -39,12 +39,12 @@ import (
 
 	msdk "github.com/livekit/media-sdk"
 	"github.com/livekit/media-sdk/dtmf"
-	"github.com/livekit/media-sdk/g711"
 	"github.com/livekit/media-sdk/rtp"
 	lksdp "github.com/livekit/media-sdk/sdp"
 	webmm "github.com/livekit/media-sdk/webm"
 	"github.com/livekit/sipgo"
 	"github.com/livekit/sipgo/sip"
+	"github.com/svana-teams/media-sdk/g711"
 
 	"github.com/livekit/sip/pkg/audiotest"
 	"github.com/livekit/sip/pkg/config"

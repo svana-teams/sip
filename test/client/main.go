@@ -24,7 +24,7 @@ import (
 	"os/signal"
 
 	"github.com/livekit/media-sdk/dtmf"
-	"github.com/livekit/media-sdk/g711"
+	"github.com/svana-teams/media-sdk/g711"
 
 	"github.com/livekit/sip/pkg/siptest"
 )

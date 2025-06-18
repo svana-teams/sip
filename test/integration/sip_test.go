@@ -14,8 +14,6 @@ import (
 	"github.com/stretchr/testify/require"
 
 	"github.com/livekit/media-sdk/dtmf"
-	"github.com/livekit/media-sdk/g711"
-	"github.com/livekit/media-sdk/g722"
 	"github.com/livekit/mediatransportutil/pkg/rtcconfig"
 	"github.com/livekit/protocol/livekit"
 	"github.com/livekit/protocol/logger"
@@ -25,6 +23,8 @@ import (
 	"github.com/livekit/psrpc"
 	lksdk "github.com/livekit/server-sdk-go/v2"
 	sipgo "github.com/livekit/sipgo/sip"
+	"github.com/svana-teams/media-sdk/g711"
+	"github.com/svana-teams/media-sdk/g722"
 
 	"github.com/livekit/sip/pkg/config"
 	"github.com/livekit/sip/pkg/service"
