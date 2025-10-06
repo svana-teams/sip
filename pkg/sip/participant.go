@@ -50,6 +50,8 @@ var headerToAttr = map[string]string{
 	"X-call_leg_id":       livekit.AttrSIPPrefix + "telnyx.callLegID",
 	"X-call_session_id":   livekit.AttrSIPPrefix + "telnyx.callSessionID",
 	"X-Lk-Test-Id":        "lktest.id",
+
+	"Reason": livekit.AttrSIPPrefix + "tata.reason",
 }
 
 type CallStatus int
